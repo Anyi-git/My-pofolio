@@ -1,0 +1,141 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: sans-serif;
+}
+
+.contain{
+    background-color: hsla(0, 0%, 0%, 0.603);
+    height: 100vh;
+    background-size: cover;
+    background-image: url("bg.png");
+    background-blend-mode: overlay;
+}
+
+.CapacityBay_logo{
+    background-color: #ffff;
+    padding: 28px;
+    color: #036e1a;
+    display: inline-block;
+    font-size: 33px;
+    font-weight: bold;
+}
+
+nav{
+    background-color: #036e1a;
+    text-align: center;
+}
+
+nav ul{
+    display: inline-block;
+    padding-left: 300px;
+}
+
+nav ul li{
+    text-decoration: none;
+    display: inline-block;
+    padding:  28px 28px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 25px;
+    width: 500;
+}
+
+nav ul li a:hover{
+    color: #66776a;
+}
+.main_text{
+    /* background-color: red; */
+    display: inline-block ;
+    position: absolute;
+    top: 300px;
+    left: 200px;
+    text-align: center;
+}
+
+.main_text h1{
+    color: #fff;
+    font-size: 60px;
+}
+
+.main_text h3{
+    color: #036e1a;
+    font-weight: 500px;
+    font-size: 35px;
+    font-style: italic;
+}
+
+.section{
+    background-color: #485845;
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+}
+
+.footer{
+    /* font-size: 70px; */
+    /* padding: 50px; */
+    /* background-color: green; */
+    top: 150px;
+    left: 0px;
+    position: relative;
+    text-align: center;
+}
+
+.footer h1{
+    font-size: 50px;
+    margin: 30px 25px;
+    color: #fff;
+}
+
+.footer p{
+    font-size: 20px;
+    /* font-weight: lighter; */
+    font-style: italic;
+    margin: 45px;
+    color: #fff;
+}
+
+.icon_1{
+    /* background-color: blue; */
+}
+
+.icon_1 a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 25px;
+    margin-right: 15px;
+}
+
+.icon_2 a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 25px;
+    margin-right: 10px;
+}
+
+.line{
+    border-bottom: 4px solid #036e1a;
+    padding: 150px;
+}
+
+.last{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.last h5{
+    display: inline-block;
+    color: #fff;
+    font-size: 20px;
+}
+
+.last p{
+    font-size: 20px;
+    display: inline-block;
+    color: #fff;
+    margin-left: 500px;
+}
